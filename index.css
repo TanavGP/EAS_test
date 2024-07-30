@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.grid-container {
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.tile {
+    background-color: gray;
+    padding: 0px;
+    border-color: rgb(96, 21, 21);
+    border: 5px;
+    border-radius: 5%;
+}
